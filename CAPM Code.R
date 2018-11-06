@@ -6,7 +6,8 @@ capm <- read.csv("Topix Core30 Return (without Hitachi).csv",header=T,check.name
   # Rf of 10Y JGB is 0.13% in Nov. 5 according to Bloomberg
 
 Rf <- 0.0013
-expected_Rm <- mean(capm$`Nikkei return`)
+TopixRm <- 0.045 # 20 Years average
+expected_Rm <- mean(TopixRm)
 market_premium <- expected_Rm - Rf
 
 #Count col (how many companies in the dataset)
