@@ -53,4 +53,4 @@ Data source is from Yahoo Finance. However, there seemed to be a huge error for 
 
 I decided to remove Hitachi from my analysis, so a total of 29 stocks.
 
-# See Code.R for complete process and code
+# See CAPM Code.R for complete process and code
